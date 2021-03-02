@@ -24,6 +24,10 @@ public class EmployeeController {
 	@Autowired
 		private EmployeeService employeeService;
 	
+	private void Syso() {
+		// TODO Auto-generated method stub
+
+	}
 	 
 	    @PostMapping(consumes = "application/json", produces = "application/json", path = "/employee")
 	    public ResponseEntity<Employee> createEmployee(@RequestBody Employee emp) {
