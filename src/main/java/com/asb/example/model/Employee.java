@@ -10,7 +10,10 @@ import javax.persistence.Table;
 @Entity
 @Table(name="Employee")
 public class Employee {
+private void Syso() {
+	// TODO Auto-generated method stub
 
+}
 	
 	@Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
