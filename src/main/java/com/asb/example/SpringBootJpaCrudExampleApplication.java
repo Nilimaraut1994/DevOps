@@ -8,6 +8,7 @@ public class SpringBootJpaCrudExampleApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootJpaCrudExampleApplication.class, args);
+		System.out.println("welcome");
 	}
 
 }
